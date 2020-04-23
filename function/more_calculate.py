@@ -39,7 +39,6 @@ class MoreCal(QWidget):
         self.more_calculate_ui.pushButton_lbr.clicked.connect(self.click_lbr)
         self.more_calculate_ui.pushButton_rbr.clicked.connect(self.click_rbr)
 
-
         # 和＝一样为点击直接计算的类型
         self.more_calculate_ui.pushButton_abs.clicked.connect(self.click_abs)
         # 倒数

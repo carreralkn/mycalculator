@@ -237,6 +237,7 @@ class Ui_more_calculate(object):
         self.lineEdit.setFont(font)
         self.lineEdit.setText("")
         self.lineEdit.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.lineEdit.setReadOnly(True)
         self.lineEdit.setObjectName("lineEdit")
 
         self.retranslateUi(more_calculate)

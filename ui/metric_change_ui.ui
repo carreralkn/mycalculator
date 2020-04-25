@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>metric_change</class>
+ <widget class="QWidget" name="metric_change">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>度量转换</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_l1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_l2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>80</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_l1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>cm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>dm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>km</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>尺</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>丈</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英尺</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>码</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英里</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>先在下拉菜单中选好需要转换的单位，在左边的框中输入数据，点击等号进行转换</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_l">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>40</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>长度</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_v">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>体积</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_m">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>质量</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_l">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>80</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_v">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>160</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_v1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>160</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>立方米</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>品脱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>夸脱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>加仑</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_v2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_v1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_m1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>g</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>kg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>吨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>磅</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>盎司</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_m1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>240</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_m">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>240</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_m2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>240</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_l2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>cm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>dm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>km</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>尺</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>丈</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英尺</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>码</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英里</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_v2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>160</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>立方米</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>品脱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>夸脱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>加仑</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_m2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>240</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪铸字木头人W</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>g</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>kg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>吨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>磅</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>盎司</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

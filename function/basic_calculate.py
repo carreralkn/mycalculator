@@ -31,6 +31,7 @@ class BasicCal(QWidget):
 
         self.basic_calculate_ui.pushButton_eq.clicked.connect(self.click_eq)
 
+        # 报错窗口
         self.wrong = printwrong.PrintWrong()
 
     def click_c(self):

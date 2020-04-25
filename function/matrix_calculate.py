@@ -19,6 +19,9 @@ class MatrixCal(QWidget):
         self.matrix_calculate_ui.pushButton_rev.clicked.connect(self.click_rev)
         self.matrix_calculate_ui.pushButton_inv.clicked.connect(self.click_inv)
         self.matrix_calculate_ui.pushButton_det.clicked.connect(self.click_det)
+        self.matrix_calculate_ui.pushButton_add.clicked.connect(self.click_add)
+        self.matrix_calculate_ui.pushButton_sub.clicked.connect(self.click_sub)
+        self.matrix_calculate_ui.pushButton_mul.clicked.connect(self.click_mul)
 
         # 报错窗口
         self.wrong = printwrong.PrintWrong()
@@ -89,6 +92,92 @@ class MatrixCal(QWidget):
         except:
             self.wrong.show()
 
+    def click_add(self):
+        try:
+            text = self.matrix_calculate_ui.textEdit.toPlainText()
+
+            text_list = text.split("\n#\n")
+
+            text_1 = text_list[0]
+            text_2 = text_list[1]
+
+            text_1 = text_1.replace('\n', ';')
+            text_2 = text_2.replace('\n', ';')
+
+            matrix_1 = np.mat(text_1)
+            matrix_2 = np.mat(text_2)
+
+            sum = matrix_1 + matrix_2
+
+            text_new = str(sum)
+
+            # 将字符串矩阵中的中括号[]去除，并使之对齐
+
+            text_new = re.sub('\\[', ' ', text_new)
+            text_new = re.sub('\\]', ' ', text_new)
+
+            self.matrix_calculate_ui.textEdit.setText(text_new)
+
+        except:
+            self.wrong.show()
+
+    def click_sub(self):
+        try:
+            text = self.matrix_calculate_ui.textEdit.toPlainText()
+
+            text_list = text.split("\n#\n")
+
+            text_1 = text_list[0]
+            text_2 = text_list[1]
+
+            text_1 = text_1.replace('\n', ';')
+            text_2 = text_2.replace('\n', ';')
+
+            matrix_1 = np.mat(text_1)
+            matrix_2 = np.mat(text_2)
+
+            sum = matrix_1 - matrix_2
+
+            text_new = str(sum)
+
+            # 将字符串矩阵中的中括号[]去除，并使之对齐
+
+            text_new = re.sub('\\[', ' ', text_new)
+            text_new = re.sub('\\]', ' ', text_new)
+
+            self.matrix_calculate_ui.textEdit.setText(text_new)
+
+        except:
+            self.wrong.show()
+
+    def click_mul(self):
+        try:
+            text = self.matrix_calculate_ui.textEdit.toPlainText()
+
+            text_list = text.split("\n#\n")
+
+            text_1 = text_list[0]
+            text_2 = text_list[1]
+
+            text_1 = text_1.replace('\n', ';')
+            text_2 = text_2.replace('\n', ';')
+
+            matrix_1 = np.mat(text_1)
+            matrix_2 = np.mat(text_2)
+
+            mul = np.dot(matrix_1,matrix_2)
+
+            text_new = str(mul)
+
+            # 将字符串矩阵中的中括号[]去除，并使之对齐
+
+            text_new = re.sub('\\[', ' ', text_new)
+            text_new = re.sub('\\]', ' ', text_new)
+
+            self.matrix_calculate_ui.textEdit.setText(text_new)
+
+        except:
+            self.wrong.show()
 
 
 

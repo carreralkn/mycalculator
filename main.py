@@ -1,10 +1,12 @@
 from ui import main_ui
-from ui import basic_calculate_ui
 
 from function import basic_calculate
 from function import more_calculate
 from function import radix_change
 from function import matrix_calculate
+from function import metric_change
+from function import statistics
+from function import date_count
 
 import sys
 
@@ -36,6 +38,17 @@ def click_4():
     matrix.show()
 
 
+def click_5():
+    metric.show()
+
+
+def click_6():
+    sta.show()
+
+
+def click_7():
+    date.show()
+
 
 if __name__ == '__main__':
     # 解决了Qtdesigner设计的界面与实际运行界面不符的问题
@@ -47,6 +60,9 @@ if __name__ == '__main__':
     more = more_calculate.MoreCal()
     radix = radix_change.RadixCh()
     matrix = matrix_calculate.MatrixCal()
+    metric = metric_change.MetircCh()
+    sta = statistics.Sta()
+    date = date_count.DateCount()
 
     main.show()
 
@@ -54,5 +70,8 @@ if __name__ == '__main__':
     main.main_ui.pushButton_2.clicked.connect(click_2)
     main.main_ui.pushButton_3.clicked.connect(click_3)
     main.main_ui.pushButton_4.clicked.connect(click_4)
+    main.main_ui.pushButton_5.clicked.connect(click_5)
+    main.main_ui.pushButton_6.clicked.connect(click_6)
+    main.main_ui.pushButton_7.clicked.connect(click_7)
 
     sys.exit(app.exec_())

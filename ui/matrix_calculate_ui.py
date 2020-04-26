@@ -38,6 +38,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_add.setFont(font)
+        self.pushButton_add.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_add.setObjectName("pushButton_add")
         self.pushButton_sub = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_sub.setGeometry(QtCore.QRect(86, 310, 61, 21))
@@ -45,6 +47,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_sub.setFont(font)
+        self.pushButton_sub.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_sub.setObjectName("pushButton_sub")
         self.pushButton_inv = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_inv.setGeometry(QtCore.QRect(6, 341, 61, 21))
@@ -52,6 +56,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_inv.setFont(font)
+        self.pushButton_inv.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_inv.setObjectName("pushButton_inv")
         self.pushButton_det = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_det.setGeometry(QtCore.QRect(86, 341, 61, 21))
@@ -59,6 +65,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_det.setFont(font)
+        self.pushButton_det.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_det.setObjectName("pushButton_det")
         self.pushButton_rev = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_rev.setGeometry(QtCore.QRect(166, 341, 61, 21))
@@ -66,6 +74,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_rev.setFont(font)
+        self.pushButton_rev.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_rev.setObjectName("pushButton_rev")
         self.pushButton_mul = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_mul.setGeometry(QtCore.QRect(166, 310, 61, 21))
@@ -73,6 +83,8 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(14)
         self.pushButton_mul.setFont(font)
+        self.pushButton_mul.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_mul.setObjectName("pushButton_mul")
         self.pushButton_c = QtWidgets.QPushButton(matrix_calculate)
         self.pushButton_c.setGeometry(QtCore.QRect(246, 310, 71, 51))
@@ -80,7 +92,23 @@ class Ui_matrix_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(24)
         self.pushButton_c.setFont(font)
+        self.pushButton_c.setStyleSheet("background-color: rgb(255, 85, 85);\n"
+"border: 4px double ;")
         self.pushButton_c.setObjectName("pushButton_c")
+        self.listView = QtWidgets.QListView(matrix_calculate)
+        self.listView.setGeometry(QtCore.QRect(0, 0, 331, 381))
+        self.listView.setStyleSheet("border-image: url(:/newPrefix/background2.jpg);")
+        self.listView.setObjectName("listView")
+        self.listView.raise_()
+        self.textEdit.raise_()
+        self.label.raise_()
+        self.pushButton_add.raise_()
+        self.pushButton_sub.raise_()
+        self.pushButton_inv.raise_()
+        self.pushButton_det.raise_()
+        self.pushButton_rev.raise_()
+        self.pushButton_mul.raise_()
+        self.pushButton_c.raise_()
 
         self.retranslateUi(matrix_calculate)
         QtCore.QMetaObject.connectSlotsByName(matrix_calculate)
@@ -101,3 +129,4 @@ class Ui_matrix_calculate(object):
         self.pushButton_rev.setText(_translate("matrix_calculate", "转置"))
         self.pushButton_mul.setText(_translate("matrix_calculate", "点积"))
         self.pushButton_c.setText(_translate("matrix_calculate", "C"))
+

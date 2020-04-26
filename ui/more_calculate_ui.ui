@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>拓展计算</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+</string>
+  </property>
   <widget class="QPushButton" name="pushButton_e">
    <property name="geometry">
     <rect>
@@ -27,6 +31,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>e</string>
@@ -46,6 +54,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>log</string>
@@ -68,6 +80,10 @@
      <bold>true</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>π</string>
    </property>
@@ -86,6 +102,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>2</string>
@@ -106,6 +126,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>3</string>
    </property>
@@ -124,6 +148,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>5</string>
@@ -144,6 +172,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>8</string>
    </property>
@@ -162,6 +194,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>9</string>
@@ -182,6 +218,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>6</string>
    </property>
@@ -200,6 +240,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>7</string>
@@ -220,6 +264,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>1</string>
    </property>
@@ -238,6 +286,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>4</string>
@@ -258,6 +310,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>1/x</string>
    </property>
@@ -276,6 +332,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>ln</string>
@@ -296,6 +356,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>tan</string>
    </property>
@@ -314,6 +378,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>cos</string>
@@ -334,6 +402,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>sin</string>
    </property>
@@ -352,6 +424,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>|x|</string>
@@ -372,6 +448,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>(</string>
    </property>
@@ -390,6 +470,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>)</string>
@@ -410,6 +494,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(89, 89, 134);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>!</string>
    </property>
@@ -428,6 +516,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>^</string>
@@ -448,6 +540,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>0</string>
    </property>
@@ -466,6 +562,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>.</string>
@@ -486,6 +586,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>=</string>
    </property>
@@ -504,6 +608,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>+</string>
@@ -524,6 +632,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>-</string>
    </property>
@@ -543,6 +655,10 @@
      <pointsize>26</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>×</string>
    </property>
@@ -561,6 +677,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>26</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>÷</string>
@@ -582,6 +702,10 @@
      <weight>50</weight>
      <bold>false</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 85);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>c</string>
@@ -615,7 +739,54 @@
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>381</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>pushButton_e</zorder>
+  <zorder>pushButton_log</zorder>
+  <zorder>pushButton_pi</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_1</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_rec</zorder>
+  <zorder>pushButton_ln</zorder>
+  <zorder>pushButton_tan</zorder>
+  <zorder>pushButton_cos</zorder>
+  <zorder>pushButton_sin</zorder>
+  <zorder>pushButton_abs</zorder>
+  <zorder>pushButton_lbr</zorder>
+  <zorder>pushButton_rbr</zorder>
+  <zorder>pushButton_fac</zorder>
+  <zorder>pushButton_pow</zorder>
+  <zorder>pushButton_0</zorder>
+  <zorder>pushButton_point</zorder>
+  <zorder>pushButton_eq</zorder>
+  <zorder>pushButton_add</zorder>
+  <zorder>pushButton_sub</zorder>
+  <zorder>pushButton_mul</zorder>
+  <zorder>pushButton_div</zorder>
+  <zorder>pushButton_c</zorder>
+  <zorder>lineEdit</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

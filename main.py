@@ -50,6 +50,10 @@ def click_7():
     date.show()
 
 
+def click_8():
+    sys.exit(app.exec_())
+
+
 if __name__ == '__main__':
     # 解决了Qtdesigner设计的界面与实际运行界面不符的问题
     QCoreApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
@@ -73,5 +77,6 @@ if __name__ == '__main__':
     main.main_ui.pushButton_5.clicked.connect(click_5)
     main.main_ui.pushButton_6.clicked.connect(click_6)
     main.main_ui.pushButton_7.clicked.connect(click_7)
+    main.main_ui.pushButton_8.clicked.connect(click_8)
 
     sys.exit(app.exec_())

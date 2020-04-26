@@ -1,6 +1,6 @@
 ('d:\\python\\lib\\site-packages\\pyinstaller-3.6-py3.7.egg',
  None,
- {'*.pyc', '*.cp37-win_amd64.pyd', '*.pyw', 'EGG-INFO', '*.pyd', '*.py'},
+ {'*.pyd', '*.pyw', 'EGG-INFO', '*.pyc', '*.py', '*.cp37-win_amd64.pyd'},
  'DATA',
  [('PyInstaller\\utils\\hooks\\subproc\\README',
    'd:\\python\\lib\\site-packages\\pyinstaller-3.6-py3.7.egg\\PyInstaller\\utils\\hooks\\subproc\\README',

@@ -175,6 +175,9 @@
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string>长度</string>
    </property>
@@ -196,6 +199,9 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>14</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>体积</string>
@@ -219,6 +225,9 @@
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string>质量</string>
    </property>
@@ -241,6 +250,10 @@
      <pointsize>18</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>=</string>
    </property>
@@ -259,6 +272,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>=</string>
@@ -430,6 +447,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>=</string>
@@ -630,7 +651,42 @@
     </property>
    </item>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>451</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>lineEdit_l1</zorder>
+  <zorder>lineEdit_l2</zorder>
+  <zorder>comboBox_l1</zorder>
+  <zorder>label</zorder>
+  <zorder>label_l</zorder>
+  <zorder>label_v</zorder>
+  <zorder>label_m</zorder>
+  <zorder>pushButton_l</zorder>
+  <zorder>pushButton_v</zorder>
+  <zorder>comboBox_v1</zorder>
+  <zorder>lineEdit_v2</zorder>
+  <zorder>lineEdit_v1</zorder>
+  <zorder>comboBox_m1</zorder>
+  <zorder>lineEdit_m1</zorder>
+  <zorder>pushButton_m</zorder>
+  <zorder>lineEdit_m2</zorder>
+  <zorder>comboBox_l2</zorder>
+  <zorder>comboBox_v2</zorder>
+  <zorder>comboBox_m2</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

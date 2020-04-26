@@ -14,12 +14,16 @@ class Ui_more_calculate(object):
     def setupUi(self, more_calculate):
         more_calculate.setObjectName("more_calculate")
         more_calculate.resize(376, 300)
+        more_calculate.setStyleSheet("\n"
+"")
         self.pushButton_e = QtWidgets.QPushButton(more_calculate)
         self.pushButton_e.setGeometry(QtCore.QRect(67, 208, 56, 41))
         font = QtGui.QFont()
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_e.setFont(font)
+        self.pushButton_e.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_e.setObjectName("pushButton_e")
         self.pushButton_log = QtWidgets.QPushButton(more_calculate)
         self.pushButton_log.setGeometry(QtCore.QRect(67, 163, 56, 41))
@@ -27,6 +31,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_log.setFont(font)
+        self.pushButton_log.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_log.setObjectName("pushButton_log")
         self.pushButton_pi = QtWidgets.QPushButton(more_calculate)
         self.pushButton_pi.setGeometry(QtCore.QRect(67, 253, 56, 41))
@@ -36,6 +42,8 @@ class Ui_more_calculate(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_pi.setFont(font)
+        self.pushButton_pi.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_pi.setObjectName("pushButton_pi")
         self.pushButton_2 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_2.setGeometry(QtCore.QRect(190, 208, 56, 41))
@@ -43,6 +51,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_3.setGeometry(QtCore.QRect(251, 208, 56, 41))
@@ -50,6 +60,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_3.setFont(font)
+        self.pushButton_3.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_5 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_5.setGeometry(QtCore.QRect(190, 163, 56, 41))
@@ -57,6 +69,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_5.setFont(font)
+        self.pushButton_5.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_5.setObjectName("pushButton_5")
         self.pushButton_8 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_8.setGeometry(QtCore.QRect(190, 118, 56, 41))
@@ -64,6 +78,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_8.setFont(font)
+        self.pushButton_8.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_8.setObjectName("pushButton_8")
         self.pushButton_9 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_9.setGeometry(QtCore.QRect(251, 118, 56, 41))
@@ -71,6 +87,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_9.setFont(font)
+        self.pushButton_9.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_9.setObjectName("pushButton_9")
         self.pushButton_6 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_6.setGeometry(QtCore.QRect(251, 163, 56, 41))
@@ -78,6 +96,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_6.setFont(font)
+        self.pushButton_6.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_6.setObjectName("pushButton_6")
         self.pushButton_7 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_7.setGeometry(QtCore.QRect(129, 118, 56, 41))
@@ -85,6 +105,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_7.setFont(font)
+        self.pushButton_7.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_7.setObjectName("pushButton_7")
         self.pushButton_1 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_1.setGeometry(QtCore.QRect(129, 208, 56, 41))
@@ -92,6 +114,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_1.setFont(font)
+        self.pushButton_1.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_1.setObjectName("pushButton_1")
         self.pushButton_4 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_4.setGeometry(QtCore.QRect(129, 163, 56, 41))
@@ -99,6 +123,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_4.setFont(font)
+        self.pushButton_4.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_4.setObjectName("pushButton_4")
         self.pushButton_rec = QtWidgets.QPushButton(more_calculate)
         self.pushButton_rec.setGeometry(QtCore.QRect(67, 73, 56, 41))
@@ -106,6 +132,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_rec.setFont(font)
+        self.pushButton_rec.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_rec.setObjectName("pushButton_rec")
         self.pushButton_ln = QtWidgets.QPushButton(more_calculate)
         self.pushButton_ln.setGeometry(QtCore.QRect(67, 118, 56, 41))
@@ -113,6 +141,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_ln.setFont(font)
+        self.pushButton_ln.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_ln.setObjectName("pushButton_ln")
         self.pushButton_tan = QtWidgets.QPushButton(more_calculate)
         self.pushButton_tan.setGeometry(QtCore.QRect(6, 163, 56, 41))
@@ -120,6 +150,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_tan.setFont(font)
+        self.pushButton_tan.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_tan.setObjectName("pushButton_tan")
         self.pushButton_cos = QtWidgets.QPushButton(more_calculate)
         self.pushButton_cos.setGeometry(QtCore.QRect(6, 208, 56, 41))
@@ -127,6 +159,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_cos.setFont(font)
+        self.pushButton_cos.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_cos.setObjectName("pushButton_cos")
         self.pushButton_sin = QtWidgets.QPushButton(more_calculate)
         self.pushButton_sin.setGeometry(QtCore.QRect(6, 253, 56, 41))
@@ -134,6 +168,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_sin.setFont(font)
+        self.pushButton_sin.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_sin.setObjectName("pushButton_sin")
         self.pushButton_abs = QtWidgets.QPushButton(more_calculate)
         self.pushButton_abs.setGeometry(QtCore.QRect(6, 73, 56, 41))
@@ -141,6 +177,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(20)
         self.pushButton_abs.setFont(font)
+        self.pushButton_abs.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_abs.setObjectName("pushButton_abs")
         self.pushButton_lbr = QtWidgets.QPushButton(more_calculate)
         self.pushButton_lbr.setGeometry(QtCore.QRect(129, 73, 56, 41))
@@ -148,6 +186,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_lbr.setFont(font)
+        self.pushButton_lbr.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_lbr.setObjectName("pushButton_lbr")
         self.pushButton_rbr = QtWidgets.QPushButton(more_calculate)
         self.pushButton_rbr.setGeometry(QtCore.QRect(190, 73, 56, 41))
@@ -155,6 +195,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_rbr.setFont(font)
+        self.pushButton_rbr.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_rbr.setObjectName("pushButton_rbr")
         self.pushButton_fac = QtWidgets.QPushButton(more_calculate)
         self.pushButton_fac.setGeometry(QtCore.QRect(6, 118, 56, 41))
@@ -162,6 +204,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_fac.setFont(font)
+        self.pushButton_fac.setStyleSheet("background-color: rgb(89, 89, 134);\n"
+"border: 1px solid ;")
         self.pushButton_fac.setObjectName("pushButton_fac")
         self.pushButton_pow = QtWidgets.QPushButton(more_calculate)
         self.pushButton_pow.setGeometry(QtCore.QRect(251, 73, 56, 41))
@@ -169,6 +213,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_pow.setFont(font)
+        self.pushButton_pow.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_pow.setObjectName("pushButton_pow")
         self.pushButton_0 = QtWidgets.QPushButton(more_calculate)
         self.pushButton_0.setGeometry(QtCore.QRect(129, 253, 56, 41))
@@ -176,6 +222,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_0.setFont(font)
+        self.pushButton_0.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_0.setObjectName("pushButton_0")
         self.pushButton_point = QtWidgets.QPushButton(more_calculate)
         self.pushButton_point.setGeometry(QtCore.QRect(190, 253, 56, 41))
@@ -183,6 +231,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_point.setFont(font)
+        self.pushButton_point.setStyleSheet("background-color: rgb(170, 255, 127);\n"
+"border: 1px solid ;")
         self.pushButton_point.setObjectName("pushButton_point")
         self.pushButton_eq = QtWidgets.QPushButton(more_calculate)
         self.pushButton_eq.setGeometry(QtCore.QRect(251, 253, 56, 41))
@@ -190,6 +240,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_eq.setFont(font)
+        self.pushButton_eq.setStyleSheet("background-color: rgb(170, 255, 255);\n"
+"border: 4px double ;")
         self.pushButton_eq.setObjectName("pushButton_eq")
         self.pushButton_add = QtWidgets.QPushButton(more_calculate)
         self.pushButton_add.setGeometry(QtCore.QRect(313, 253, 56, 41))
@@ -197,6 +249,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_add.setFont(font)
+        self.pushButton_add.setStyleSheet("background-color: rgb(160, 180, 40);\n"
+"border: 1px solid ;")
         self.pushButton_add.setObjectName("pushButton_add")
         self.pushButton_sub = QtWidgets.QPushButton(more_calculate)
         self.pushButton_sub.setGeometry(QtCore.QRect(313, 208, 56, 41))
@@ -204,6 +258,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_sub.setFont(font)
+        self.pushButton_sub.setStyleSheet("background-color: rgb(160, 180, 40);\n"
+"border: 1px solid ;")
         self.pushButton_sub.setObjectName("pushButton_sub")
         self.pushButton_mul = QtWidgets.QPushButton(more_calculate)
         self.pushButton_mul.setGeometry(QtCore.QRect(313, 163, 56, 41))
@@ -211,6 +267,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_mul.setFont(font)
+        self.pushButton_mul.setStyleSheet("background-color: rgb(160, 180, 40);\n"
+"border: 1px solid ;")
         self.pushButton_mul.setObjectName("pushButton_mul")
         self.pushButton_div = QtWidgets.QPushButton(more_calculate)
         self.pushButton_div.setGeometry(QtCore.QRect(313, 118, 56, 41))
@@ -218,6 +276,8 @@ class Ui_more_calculate(object):
         font.setFamily("汉仪铸字木头人W")
         font.setPointSize(26)
         self.pushButton_div.setFont(font)
+        self.pushButton_div.setStyleSheet("background-color: rgb(160, 180, 40);\n"
+"border: 1px solid ;")
         self.pushButton_div.setObjectName("pushButton_div")
         self.pushButton_c = QtWidgets.QPushButton(more_calculate)
         self.pushButton_c.setGeometry(QtCore.QRect(313, 73, 56, 41))
@@ -227,6 +287,8 @@ class Ui_more_calculate(object):
         font.setBold(False)
         font.setWeight(50)
         self.pushButton_c.setFont(font)
+        self.pushButton_c.setStyleSheet("background-color: rgb(255, 85, 85);\n"
+"border: 4px double ;")
         self.pushButton_c.setObjectName("pushButton_c")
         self.lineEdit = QtWidgets.QLineEdit(more_calculate)
         self.lineEdit.setEnabled(True)
@@ -239,6 +301,42 @@ class Ui_more_calculate(object):
         self.lineEdit.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.lineEdit.setReadOnly(True)
         self.lineEdit.setObjectName("lineEdit")
+        self.listView = QtWidgets.QListView(more_calculate)
+        self.listView.setGeometry(QtCore.QRect(0, 0, 381, 311))
+        self.listView.setStyleSheet("border-image: url(:/newPrefix/background2.jpg);")
+        self.listView.setObjectName("listView")
+        self.listView.raise_()
+        self.pushButton_e.raise_()
+        self.pushButton_log.raise_()
+        self.pushButton_pi.raise_()
+        self.pushButton_2.raise_()
+        self.pushButton_3.raise_()
+        self.pushButton_5.raise_()
+        self.pushButton_8.raise_()
+        self.pushButton_9.raise_()
+        self.pushButton_6.raise_()
+        self.pushButton_7.raise_()
+        self.pushButton_1.raise_()
+        self.pushButton_4.raise_()
+        self.pushButton_rec.raise_()
+        self.pushButton_ln.raise_()
+        self.pushButton_tan.raise_()
+        self.pushButton_cos.raise_()
+        self.pushButton_sin.raise_()
+        self.pushButton_abs.raise_()
+        self.pushButton_lbr.raise_()
+        self.pushButton_rbr.raise_()
+        self.pushButton_fac.raise_()
+        self.pushButton_pow.raise_()
+        self.pushButton_0.raise_()
+        self.pushButton_point.raise_()
+        self.pushButton_eq.raise_()
+        self.pushButton_add.raise_()
+        self.pushButton_sub.raise_()
+        self.pushButton_mul.raise_()
+        self.pushButton_div.raise_()
+        self.pushButton_c.raise_()
+        self.lineEdit.raise_()
 
         self.retranslateUi(more_calculate)
         QtCore.QMetaObject.connectSlotsByName(more_calculate)

@@ -113,6 +113,10 @@
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>统计</string>
    </property>
@@ -158,6 +162,10 @@ p, li { white-space: pre-wrap; }
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 85);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>C</string>
    </property>
@@ -177,11 +185,38 @@ p, li { white-space: pre-wrap; }
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);</string>
+   </property>
    <property name="readOnly">
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listWidget</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>label_2</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>pushButton_c</zorder>
+  <zorder>textEdit_name</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

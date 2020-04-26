@@ -234,7 +234,7 @@ class MoreCal(QWidget):
 
         try:
             result = eval(text)
-            if (result % x == 0):
+            if ((result - x)% math.pi == 0):
                 flag = False
             result_tan = math.tan(result)
 

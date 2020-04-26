@@ -33,6 +33,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>0</string>
    </property>
@@ -51,6 +55,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>1</string>
@@ -71,6 +79,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>2</string>
    </property>
@@ -89,6 +101,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>3</string>
@@ -109,6 +125,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>A</string>
    </property>
@@ -127,6 +147,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>B</string>
@@ -147,6 +171,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>C</string>
    </property>
@@ -165,6 +193,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>4</string>
@@ -185,6 +217,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>5</string>
    </property>
@@ -203,6 +239,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>6</string>
@@ -223,6 +263,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>7</string>
    </property>
@@ -241,6 +285,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>8</string>
@@ -261,6 +309,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>9</string>
    </property>
@@ -279,6 +331,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>D</string>
@@ -299,6 +355,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>E</string>
    </property>
@@ -317,6 +377,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>F</string>
@@ -337,6 +401,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>BIN</string>
    </property>
@@ -355,6 +423,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>OCT</string>
@@ -375,6 +447,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>DEC</string>
    </property>
@@ -393,6 +469,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>HEX</string>
@@ -626,11 +706,61 @@
      <pointsize>18</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 85);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>CE</string>
    </property>
   </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>331</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listWidget</zorder>
+  <zorder>pushButton_0</zorder>
+  <zorder>pushButton_1</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_a</zorder>
+  <zorder>pushButton_b</zorder>
+  <zorder>pushButton_c</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_d</zorder>
+  <zorder>pushButton_e</zorder>
+  <zorder>pushButton_f</zorder>
+  <zorder>pushButton_bin</zorder>
+  <zorder>pushButton_oct</zorder>
+  <zorder>pushButton_dec</zorder>
+  <zorder>pushButton_hex</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_bin</zorder>
+  <zorder>lineEdit_oct</zorder>
+  <zorder>lineEdit_hex</zorder>
+  <zorder>lineEdit_dec</zorder>
+  <zorder>label_hex</zorder>
+  <zorder>label_dec</zorder>
+  <zorder>label_oct</zorder>
+  <zorder>label_bin</zorder>
+  <zorder>pushButton_ce</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

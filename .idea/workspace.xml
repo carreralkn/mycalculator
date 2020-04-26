@@ -3,136 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="aa46ac5a-c015-446e-8235-38783a293cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/COLLECT-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/MSVCP140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/iconengines/qsvgicon.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qgif.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qicns.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qico.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qjpeg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qsvg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qtga.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qtiff.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qwbmp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qwebp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qminimal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qoffscreen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qwebgl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qwindows.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platformthemes/qxdgdesktopportal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ca.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_gd.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_he.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_lv.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_zh_TW.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtCore.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtGui.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/QtWidgets.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/PyQt5/sip.cp37-win_amd64.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5DBus.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Gui.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Network.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Qml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Quick.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Svg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5WebSockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/Qt5Widgets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/d3dcompiler_47.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/libEGL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/libGLESv2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/libcrypto-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/libssl-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/main.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/opengl32sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/python37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/basic_calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/basic_calculate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/matrix_calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/matrix_calculate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/more_calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/more_calculate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/basic_calculate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/basic_calculate_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/basic_calculate_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/basic_calculate_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/date_count_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/date_count_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/date_count_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/date_count_ui.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/main_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main_ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/main_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/matrix_calculate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/matrix_calculate_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/matrix_calculate_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/matrix_calculate_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/metric_change_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/metric_change_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/metric_change_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/metric_change_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/more_calculate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/more_calculate_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/more_calculate_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/more_calculate_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/radix_change_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/radix_change_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/radix_change_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/radix_change_ui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/statistics_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/statistics_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/statistics_ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/statistics_ui.ui" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,8 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-133">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,20 +75,27 @@
         <option value="$PROJECT_DIR$/calculate/basic_calculate.py" />
         <option value="$PROJECT_DIR$/ui/__init__.py" />
         <option value="$PROJECT_DIR$/class/basic_calculate.py" />
-        <option value="$PROJECT_DIR$/ui/basic_calculate_ui.py" />
         <option value="$PROJECT_DIR$/ui/printwrong.py" />
         <option value="$PROJECT_DIR$/function/printwrong.py" />
         <option value="$PROJECT_DIR$/calculate/__init__.py" />
         <option value="$PROJECT_DIR$/function/test.py" />
-        <option value="$PROJECT_DIR$/function/more_calculate.py" />
         <option value="$PROJECT_DIR$/function/radix_change.py" />
-        <option value="$PROJECT_DIR$/ui/more_calculate_ui.py" />
         <option value="$PROJECT_DIR$/function/matrix_calculate.py" />
         <option value="$PROJECT_DIR$/function/basic_calculate.py" />
         <option value="$PROJECT_DIR$/function/metric_change.py" />
         <option value="$PROJECT_DIR$/function/statistics.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/function/date_count.py" />
+        <option value="$PROJECT_DIR$/function/setting.py" />
+        <option value="$PROJECT_DIR$/ui/basic_calculate_ui.py" />
+        <option value="$PROJECT_DIR$/ui/more_calculate_ui.py" />
+        <option value="$PROJECT_DIR$/ui/main_ui.py" />
+        <option value="$PROJECT_DIR$/ui/date_count_ui.py" />
+        <option value="$PROJECT_DIR$/ui/matrix_calculate_ui.py" />
+        <option value="$PROJECT_DIR$/ui/metric_change_ui.py" />
+        <option value="$PROJECT_DIR$/ui/radix_change_ui.py" />
+        <option value="$PROJECT_DIR$/ui/statistics_ui.py" />
+        <option value="$PROJECT_DIR$/function/more_calculate.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -208,6 +119,21 @@
               <item name="计算器" type="b2602c69:ProjectViewProjectNode" />
               <item name="计算器" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="计算器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="计算器" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="计算器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="计算器" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="计算器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="计算器" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,8 +142,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Python/python.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="D:/Python/Scripts/pyrcc5.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -329,7 +255,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,46 +277,8 @@
     <entry file="file://$PROJECT_DIR$/ui/__init__.py" />
     <entry file="file://$PROJECT_DIR$/class/basic_calculate.py" />
     <entry file="file://$PROJECT_DIR$/ui/printwrong.py" />
-    <entry file="file://$PROJECT_DIR$/function/printwrong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/test.py" />
     <entry file="file://$PROJECT_DIR$/calculate/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ui/more_calculate_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="239" column="39" selection-start-line="239" selection-start-column="39" selection-end-line="239" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/radix_change_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3572">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/main_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/basic_calculate_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/printwrong_ui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-430" />
@@ -400,46 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2698">
           <caret line="148" column="39" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/more_calculate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/metric_change_ui.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/matrix_calculate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/metric_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/statistics_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -454,19 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/date_count_ui.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/basic_calculate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/date_count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -477,10 +312,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/setting_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/metric_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/main_ui_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/printwrong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/background.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/basic_calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/basic_calculate_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/date_count_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/matrix_calculate_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/metric_change_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/statistics_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/radix_change_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/main_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/more_calculate_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/more_calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="236" column="44" lean-forward="true" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/matrix_calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2375">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-133">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -183,6 +183,10 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>计算</string>
    </property>
@@ -209,7 +213,33 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>411</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>label</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>calendarWidget_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_4</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

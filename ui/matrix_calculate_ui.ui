@@ -82,6 +82,10 @@ p, li { white-space: pre-wrap; }
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>加法</string>
    </property>
@@ -100,6 +104,10 @@ p, li { white-space: pre-wrap; }
      <family>汉仪铸字木头人W</family>
      <pointsize>14</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>减法</string>
@@ -120,6 +128,10 @@ p, li { white-space: pre-wrap; }
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>求逆</string>
    </property>
@@ -138,6 +150,10 @@ p, li { white-space: pre-wrap; }
      <family>汉仪铸字木头人W</family>
      <pointsize>14</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>求行列式</string>
@@ -158,6 +174,10 @@ p, li { white-space: pre-wrap; }
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>转置</string>
    </property>
@@ -176,6 +196,10 @@ p, li { white-space: pre-wrap; }
      <family>汉仪铸字木头人W</family>
      <pointsize>14</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>点积</string>
@@ -196,11 +220,40 @@ p, li { white-space: pre-wrap; }
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 85);
+border: 4px double ;</string>
+   </property>
    <property name="text">
     <string>C</string>
    </property>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>331</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_add</zorder>
+  <zorder>pushButton_sub</zorder>
+  <zorder>pushButton_inv</zorder>
+  <zorder>pushButton_det</zorder>
+  <zorder>pushButton_rev</zorder>
+  <zorder>pushButton_mul</zorder>
+  <zorder>pushButton_c</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>

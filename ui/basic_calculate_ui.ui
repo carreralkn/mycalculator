@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>基础计算</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QPushButton" name="pushButton_9">
    <property name="geometry">
     <rect>
@@ -27,6 +30,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>9</string>
@@ -47,6 +54,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>7</string>
    </property>
@@ -65,6 +76,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>4</string>
@@ -85,6 +100,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>6</string>
    </property>
@@ -103,6 +122,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>=</string>
@@ -123,6 +146,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>3</string>
    </property>
@@ -141,6 +168,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>.</string>
@@ -161,6 +192,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>0</string>
    </property>
@@ -179,6 +214,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>1</string>
@@ -199,6 +238,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>+</string>
    </property>
@@ -217,6 +260,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>2</string>
@@ -237,6 +284,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>5</string>
    </property>
@@ -255,6 +306,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>8</string>
@@ -275,6 +330,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>÷</string>
    </property>
@@ -293,6 +352,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
    </property>
    <property name="text">
     <string>×</string>
@@ -313,6 +376,10 @@
      <pointsize>24</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160, 180, 40);
+border: 1px solid ;</string>
+   </property>
    <property name="text">
     <string>-</string>
    </property>
@@ -331,6 +398,10 @@
      <family>汉仪铸字木头人W</family>
      <pointsize>24</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 85);
+border: 4px double ;</string>
    </property>
    <property name="text">
     <string>C</string>
@@ -363,7 +434,41 @@
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>256</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefix/background2.jpg);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_eq</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_point</zorder>
+  <zorder>pushButton_0</zorder>
+  <zorder>pushButton_1</zorder>
+  <zorder>pushButton_add</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_div</zorder>
+  <zorder>pushButton_mul</zorder>
+  <zorder>pushButton_sub</zorder>
+  <zorder>pushButton_c</zorder>
+  <zorder>lineEdit</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../picture/background.qrc"/>
+ </resources>
  <connections/>
 </ui>
